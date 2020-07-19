@@ -1,0 +1,22 @@
+{
+  "name": "odetofood-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaiMaungMaung/FoodService1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaiMaungMaung/FoodService1/issues"
+  },
+  "homepage": "https://github.com/WaiMaungMaung/FoodService1#readme",
+  "dependencies": {
+    "datatables.net-dt": "^1.10.21"
+  }
+}

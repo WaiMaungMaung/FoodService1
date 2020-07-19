@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
 using OdeToFood.Data;
 using OdeToFood.Core;
+using Microsoft.Extensions.Logging;
 
 namespace OdeToFood.Pages.Restaurants
 {
@@ -14,18 +15,21 @@ namespace OdeToFood.Pages.Restaurants
     {
         private readonly IConfiguration config;
         private readonly IRestaurantData restaurantData;
+        private readonly ILogger<ListModel> logger;
 
         public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
         [BindProperty(SupportsGet =true)] 
         public string SearchTerm { get; set; }
-        public ListModel(IConfiguration config,IRestaurantData restaurantData)
+        public ListModel(IConfiguration config,IRestaurantData restaurantData,ILogger<ListModel> logger)
         {
             this.config = config;
             this.restaurantData = restaurantData;
+            this.logger = logger;
         }
         public void OnGet()
         {
+            logger.LogError("Executing Model");
             Message = config["Message"];
             Restaurants = restaurantData.GetRestaurantByName(SearchTerm);
         }

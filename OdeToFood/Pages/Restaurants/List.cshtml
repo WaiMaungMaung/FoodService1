@@ -16,10 +16,16 @@
         </div>
     </div>
 </form>
-@foreach(var restaurant in Model.Restaurants)
+@foreach (var restaurant in Model.Restaurants)
 {
-    <partial />
+    <partial name="_Summary" model="restaurant" />
 }
+<br>
+<a asp-page=".\Edit" class="btn btn-primary">Add New</a>
+<br />
 
-@Model.Message
-
+@section Footer
+{ 
+    @Model.Message;
+    <span>Copyright from me</span>
+}

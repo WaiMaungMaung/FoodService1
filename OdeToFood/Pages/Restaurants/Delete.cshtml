@@ -1,14 +1,12 @@
-﻿@page 
+﻿@page
 @model OdeToFood.Pages.Restaurants.DeleteModel
 @{
+    ViewData["Title"] ="Delete";
 }
-
-
-
-    <h2>    Delete</h2>
-    <div class="alert alert-danger">Are you sure to Delete @Model.Restaurant.Name</div>
-    <form method="post">
-        <button type="submit" class="btn btn-danger">Delete</button>
-        <a asp-page="List" class="btn btn-default">Cancel</a>
-    </form>
+<h2> Delete</h2>
+<div class="alert alert-danger">Are you sure to Delete @Model.Restaurant.Name</div>
+<form method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-page="List" class="btn btn-default">Cancel</a>
+</form>
 
