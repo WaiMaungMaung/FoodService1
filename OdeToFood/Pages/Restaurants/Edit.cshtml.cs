@@ -61,8 +61,8 @@ namespace OdeToFood.Pages.Restaurants
             }
             TempData["Message"] = "Saved Restaurant";
             restaurantData.Commit();
-            return RedirectToPage("./Detail", new { restaurantId = Restaurants.Id });
-
+             return RedirectToPage("./Detail", new { restaurantId = Restaurants.Id });
+            //return RedirectToPage("./List");
         }
     }
 }

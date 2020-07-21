@@ -189,3 +189,4 @@ C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\obj\Rel
 C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\obj\Release\netcoreapp3.1\OdeToFood.genruntimeconfig.cache
 C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\bin\Release\netcoreapp3.1\appsettings.Production.json
 C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\obj\Release\netcoreapp3.1\Razor\wwwroot\images\Detail.cshtml.g.cs
+C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\obj\Release\netcoreapp3.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs

@@ -508,3 +508,4 @@ C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\obj\Deb
 C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\obj\Debug\netcoreapp3.1\win-x64\OdeToFood.genruntimeconfig.cache
 C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\bin\Debug\netcoreapp3.1\win-x64\appsettings.Production.json
 C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\obj\Debug\netcoreapp3.1\win-x64\Razor\wwwroot\images\Detail.cshtml.g.cs
+C:\Users\Administrator\Downloads\OdeToFood-test\OdeToFood-test\OdeToFood\obj\Debug\netcoreapp3.1\win-x64\Razor\Pages\Restaurants\Detail.cshtml.g.cs
